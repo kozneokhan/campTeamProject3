@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>diseaseSignUpPage</title>
+    <link rel="stylesheet" href="../css/diseaseSignPage.css" />
+  </head>
+  <body>
+    <header><h1 class="title">Disease.GG 회원가입</h1></header>
+
+    <main>
+      <form id="signupForm">
+        <div class="account">계정(이메일):</div>
+        <input type="text" id="account" name="account" required />
+
+        <div class="password">비밀번호:</div>
+        <input type="password" id="password" name="password" required />
+
+        <div class="confirmPassword">비밀번호 확인:</div>
+        <input
+          type="password"
+          id="confirmPassword"
+          name="confirmPassword"
+          required
+        />
+
+        <div class="nickname">닉네임:</div>
+        <input type="text" id="nickname" name="nickname" />
+
+        <div class="name">이름:</div>
+        <input type="text" id="name" name="name" required />
+
+        <div class="oneLiner">한 줄 소개:</div>
+        <input type="text" id="oneLiner" name="oneLiner" />
+
+        <button type="submit">회원가입</button>
+      </form>
+
+      <div id="signupResult"></div>
+    </main>
+
+    <script src="../js/diseaseSignPage.js"></script>
+  </body>
+</html>

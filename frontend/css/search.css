@@ -1,0 +1,9 @@
+.input-group {
+  margin-top: 50px;
+  width: 36%;
+  font-size: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

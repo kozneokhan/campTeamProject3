@@ -1,0 +1,5 @@
+@host = http://localhost:3000/api/users
+
+@accessToken = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjMsImlhdCI6MTcwMTA1NDAzNSwiZXhwIjoxNzAxMDk3MjM1fQ.mnn0r492HdQ-vpwXdjQW78LouZOd6roJIOW-OSr4mrg
+GET {{host}}/me
+Authorization: Bearer {{accessToken}}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>myInformation</title>
+    <link rel="stylesheet" href="../css/myPageInfo.css" />
+
+
+</head>
+<body>
+    <button class="homeBtn" type="button" onclick = "location.href = '메인페이지 html 기입' ">메인페이지</button>
+    <button class="topBtn" type="button">정보수정하기</button>
+    <div class="top">
+      <div class="topTable">
+        <p class="topTableText">내 정보 조회</p>
+      </div>
+      <div class="topBox" id="postingBox">
+        <div class="form-floating mb-3">
+          <ul class="infoList"></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="popup">
+      <div class="popupTable">
+        <p class="popupTableText">내 정보 수정</p>
+      </div>
+      <div class="popupBox">
+        <div class="input" id="inputbox">
+          <div class="form-floating mb-3">
+            <input class="inputInfo" id="nickname" placeholder="롤닉네임" />
+          </div>
+          <div class="form-floating mb-3">
+            <input class="inputInfo" id="oneLiner" placeholder="한줄소개" />
+          </div>
+          <div class="form-floating mb-3">
+            <input
+              type="password"
+              class="inputInfo"
+              id="password"
+              placeholder="비밀번호"
+            />
+          </div>
+          <div class="form-floating mb-3">
+            <input
+              type="password"
+              class="inputInfo"
+              id="passwordconfirm"
+              placeholder="비밀번호 확인"
+            />
+          </div>
+          <button class="putBtn" type="button">정보수정</button>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="../js/myPageInfo.js"></script>
+</html>

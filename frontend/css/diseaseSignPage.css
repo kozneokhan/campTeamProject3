@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.title {
+  width: 200px;
+  height: 200px;
+  margin: 200px;
+  background-color: rgba(10, 112, 64, 0.603);
+  color: #050505;
+  text-align: center;
+  line-height: 70px;
+}

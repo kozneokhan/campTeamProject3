@@ -1,0 +1,116 @@
+
+body {
+    background-image: url("https://search.pstatic.net/common/?src=http%3A%2F%2Fimgnews.naver.net%2Fimage%2F442%2F2014%2F11%2F19%2F92117711_99_20141119160201.jpg&type=sc960_832");
+    background-position: center;
+    background-size: cover;
+}
+.topTable {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.topTableText {
+    color: rgb(240, 176, 176);
+    margin-left: 300px;
+    font-size: 70px;
+}
+.homeBtn {
+    height: 100px;
+    background-image: url("https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzAzMDFfMTUx%2FMDAxNjc3NjAxMDcxNjk2.OpSabKZrM3QTzCnTayoHZulxqaRAA-4EbbM7DRl4Daog.-geYeEqD_dNswIRzMsAEY8I3dE8I_585__IKD5hI3nUg.PNG.blog6times%2Fimage.png&type=a340");
+    background-position: center;
+    background-size: cover;
+    font-size: 50px;
+    border-radius: 20px;
+}
+
+
+.topBtn {
+    height: 100px;
+    background-image: url("https://search.pstatic.net/sunny/?src=https%3A%2F%2Fprofile.img.afreecatv.com%2FLOGO%2Fwn%2Fwnstn1557%2Fwnstn1557.jpg&type=a340");
+    background-position: center;
+    background-size: cover;
+    color: rgb(25, 16, 51);
+    font-size: 50px;
+    float: right;
+    margin: 90px 50px 0 0;
+    border-radius: 20px;
+    cursor:pointer;
+}
+
+.topBox {
+    color: white;
+    width: 700px;
+    height: 450px;
+    margin: 0px auto 0px auto;
+    padding: 20px;
+    border: none;
+}
+
+.form-floating {
+    margin-top: 40px;
+}
+
+.infoList {
+    margin-top: 50px;
+    width: 650px;
+    height: 50px;
+    font-size: 40px;
+}
+
+.info {
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+
+.popup {
+    display: none;
+    margin-top: -723px;
+}
+
+.popupTable {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.popupTableText {
+    border-radius: 20px;
+    color: rgb(240, 176, 176);
+    margin-left: 300px;
+    font-size: 70px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.popupBox {
+    width: 700px;
+    height: 450px;
+    margin: 0px auto 0px auto;
+    padding: 20px;
+    border: none;
+}
+
+.inputInfo {
+    border-radius: 10px;
+    font-size: 50px;
+}
+
+.putBtn {
+    cursor:pointer;
+    margin: 20px 0 0 520px;
+    font-size: 20px;
+    border-radius: 10px;
+}

@@ -1,0 +1,39 @@
+@host = http://localhost:3000/api/auth
+
+### 회원가입 
+POST {{host}}/signup
+Content-Type: application/json
+
+{
+   "account": "example112@example.com",
+   "password": "eXampLeP@ss",
+   "passwordconfirm": "eXampLeP@ss",
+   "name": "관리자"
+}
+
+### 로그인
+POST {{host}}/signin
+Content-Type: application/json
+
+{
+   "account": "example112@example.com",
+   "password": "eXampLeP@ss"
+}
+
+### 로그아웃
+POST {{host}}/signout
+Content-Type: application/json
+
+{
+   "account": "example112@example.com",
+   "password": "eXampLeP@ss"
+}
+
+"account": "example1@example.com",
+   "password": "eXampLeP@ss",
+   "passwordconfirm": "eXampLeP@ss",
+   "nickname":"너도잭스처럼손가락3개",
+   "name": "관리자",
+   "gender": "남자",
+   "age": 27,
+   "Oneliner": "인생은페이커처럼"
